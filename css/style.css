@@ -322,7 +322,7 @@ form textarea {
 }
 
 form button:last-child {
-    width: 150px;
+    width: 450px;
     background-color: #ED5565;
     border: none;
     cursor: pointer;
