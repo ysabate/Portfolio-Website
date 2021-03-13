@@ -321,8 +321,8 @@ form textarea {
     transform: translateX(-50%);
 }
 
-form button:last-child {
-    width: 450px;
+form input:last-child {
+    width: 150px;
     background-color: #ED5565;
     border: none;
     cursor: pointer;
