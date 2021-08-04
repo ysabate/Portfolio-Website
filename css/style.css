@@ -10,7 +10,7 @@ html{
 }
 
 .container {
-    padding: 0 100px 0 100px;
+    padding: 0 6.25rem 0 6.25rem;
 
 }
 nav ul,
@@ -29,7 +29,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 .navbar {
     background-color: #181818;
@@ -49,7 +49,7 @@ header a,
 
 li {
     list-style: none;
-    margin-left: 30px;
+    margin-left: 1.9rem;
 }
 
 a{
@@ -127,9 +127,16 @@ span.m-left{
 .text a:hover::before {
     height: 100%;
 }
+
+.profile-image{
+    position: relative;
+}
+
 .profile-image img {
+    background-position: center;
     width: 450px;
     margin-top: 50px;
+    border-radius: 50%;
 }
 
 .about{
