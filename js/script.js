@@ -1,4 +1,4 @@
-const spans = document.querySelectorAll('h1 span')
+const spans = document.querySelectorAll('.letters span');
 spans.forEach(span => span.addEventListener('mouseover',function(e) {
     span.classList.add('animated','rubberBand')
 }))
