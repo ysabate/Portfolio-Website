@@ -41,6 +41,7 @@ header h1,
 header a,
 .text p,
 .about h1,
+.work h1,
 .skills h1,
 .work h1,
 .contact h1 {
@@ -60,6 +61,13 @@ a{
     top: 50%;
     bottom: 50%;
     transform: translateY(-50%);
+    padding-bottom: 3px;
+}
+
+nav a:hover,
+nav a:active {
+    border-bottom: #fff  solid 4px;
+    color: #fff;
 }
 
 .main-info-section{
@@ -146,7 +154,7 @@ span.m-left{
 }
 
 .about h1,
-work h1 {
+.work h1 {
     font-size: 10rem;
     z-index: 0;
     opacity: .1;
@@ -185,6 +193,8 @@ work h1 {
 .skills {
     height: 100vh;
 }
+
+
 
 .skills h1,
 .contact h1 {
@@ -291,12 +301,21 @@ button.active {
     justify-self: center;
 }
 
+
+
 div.hideCategory {
     display: none;
 }
 
 .showCategory{
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.showCategory img{
+    width: 200px;
+    height: 200px;
 }
 
 .contact {
